@@ -25,7 +25,7 @@ const display= document.querySelector(".text")
    
     }
     catch(error){
-display.style.text-align='center';
+display.style.textAlign = "center"
 display.value="Invalid input"
     }
   }
