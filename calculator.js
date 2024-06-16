@@ -13,6 +13,7 @@ const display= document.querySelector(".text")
           if(Number.isInteger(eval(display.value))==true)
             {
                  display.value=eval(display.value)
+                 
                 
             }
        else if(len>3){
@@ -25,7 +26,7 @@ const display= document.querySelector(".text")
    
     }
     catch(error){
-display.style.textAlign = "center"
+
 display.value="Invalid input"
     }
   }
